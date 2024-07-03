@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-orange-100: #ff8660;
+    --color-orange-200: #d5491d;
+    --color-blue-100: #5badff;
+    --color-blue-200: #1373d1;
+    --color-purple-200: #9a33ff;
+    --color-white: #ffffff;
+    --color-black-100: #222222;
+    --color-black-200: #191919;
+    --color-black-300: #000000;
+    --color-secundary-100: #c5c5c5;
+    --color-secundary-200: #8491a0;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  background: var(--color-black-300);
+}
+
+.grayscale-effect {
+  @apply filter grayscale hover:grayscale-0 transition duration-300;
+}
+
+.border-bottom-effect {
+  @apply border-b-2 border-p-transparent hover:border-p-purple-200 cursor-pointer;
+}
+
+.experience-area {
+  @apply flex flex-col gap-7;
+}
+
+.experience-card {
+  @apply flex flex-wrap justify-start items-center gap-5;
+}
+
+.experience-image {
+  @apply w-7 h-7;
+}
+
+.experience-title {
+  @apply text-lg font-extrabold text-p-white;
+}
+
+.experience-sub-title {
+  @apply text-xs text-p-secundary-200 md:absolute right-3;
+}
+
+.experience-description {
+  @apply text-sm text-p-secundary-100;
+}
+
+.project-image {
+  @apply rounded-t-2xl w-96 h-60 object-cover object-center;
+}
+
+.project-content {
+  @apply pl-6 py-3 bg-p-black-100 rounded-b-2xl relative;
+}
+
+.project-title {
+  @apply text-xs font-extrabold uppercase text-p-secundary-100;
+}
+
+.project-sub-title {
+  @apply text-xl font-extrabold uppercase text-p-white mt-2;
+}
+
+.project-icon {
+  @apply absolute right-8 top-8;
+}
