@@ -11,3 +11,13 @@
     <ExperienceComponent />
   </main>
 </template>
+
+<script lang="ts">
+  const stylesheet = document.querySelectorAll('[rel="stylesheet"]');
+  let count = 0;
+
+  stylesheet.forEach((link) => {
+    if (!count) link.removeAttribute('disabled');
+    count++;
+  });
+</script>
