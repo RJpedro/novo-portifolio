@@ -13,9 +13,9 @@
                 prestação de um serviço de excelência e para o suporte à equipe em tarefas diversas, visando colaborar efetivamente com a rotina de trabalho.
             </p>
             <div id="medias" class="flex gap-6 mb-20">
-                <a href="mailto:jp.santos1008@gmail.com" alt="Link para me enviar um email."><GmailIcon class="w-6 h-6"/></a>
-                <a href="https://wa.me/5512992112438" alt="Link para o meu Whatsaap."><WhatsappIcon class="w-6 h-6"/></a>
-                <a href="https://www.linkedin.com/in/joao-pedro-6289bb216/" alt="Link para o meu Linkedin."><LinkedlnIcon class="w-6 h-6"/></a>
+                <a href="mailto:jp.santos1008@gmail.com" alt="Link para me enviar um email." title="Link para me enviar um email."><GmailIcon class="w-6 h-6"/></a>
+                <a href="https://wa.me/5512992112438" alt="Link para o meu Whatsaap." title="Link para o meu Whatsaap."><WhatsappIcon class="w-6 h-6"/></a>
+                <a href="https://www.linkedin.com/in/joao-pedro-6289bb216/" alt="Link para o meu Linkedin." title="Link para o meu Linkedin."><LinkedlnIcon class="w-6 h-6"/></a>
             </div>
         </section>
     </footer>

@@ -8,7 +8,7 @@
                     <p class="experience-title">Programador Júnior I</p>
                     <p class="experience-sub-title">Julho 2023 - Atualmente</p>
                 </div>
-                <p class="experience-description">Onde trabalho atualmente venho atuando em diferentes projetos wordpress realizando a manutenção de sites, de novas funcionalidades (ACF'S), melhorias significativas no webvitals, criação de LP's e Endpoints personalizados e também a integração com diferentes plugins wordpress.</p>
+                <p class="experience-description">Onde trabalho atualmente venho atuando em diferentes projetos wordpress realizando a manutenção de sites, criação de novas funcionalidades (ACF'S), ajustes visando melhorar o Desempenho, SEO, Acessibilidade e Boas Práticas utilizando da ferramenta webvitals, criação de LP's e Endpoints personalizados, integração com diferentes plugins wordpress e também melhorias significativas em Google Search, Discover, Social Media Networks, Páginas AMP e Marfeel Adoption utilizando da ferramenta da marfeel.</p>
             </article>
             <article class="experience-area">
                 <div class="experience-card">
